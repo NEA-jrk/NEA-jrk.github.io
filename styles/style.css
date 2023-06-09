@@ -1,0 +1,128 @@
+body
+{
+	background-color: #c8e0dd;
+}
+
+*
+{
+	font-family: Tahoma, sans-serif;
+}
+
+a
+{
+	color: #222222;
+}
+
+a:link,a:visited 
+{
+  text-decoration: none;
+}
+
+a:visited
+{
+	color: #882288
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,a:active
+{
+  text-decoration: underline;
+  color: #8888ff;
+}
+
+#nav div:hover  
+{
+	background-color: #e6e6e6;
+}
+
+#nav div
+{
+	background-color: #e4f5f3;
+	max-width: 175px;
+	min-width: 60px;
+	margin: 5px;
+	text-align: center;
+	padding: 18px;
+	font-size: 16px;
+	border-radius: 10px 10px 0px 0px;
+	height: 30px;
+	box-shadow: 1px 5px 5px #3d4242;
+}
+
+div#nav
+{
+	border-radius: 10px 10px 0px 0px;
+	min-height: 100px;
+	background-color: #50787a;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 1px 5px 5px #99aaaa;
+}
+
+p,h1,h3,h4
+{
+	padding-left: 10px;
+}
+
+p
+{
+ 	font-size: 17px;
+}
+
+b
+{
+	color: #222222;
+}
+
+div#main
+{
+	margin: auto;
+	width: 85%;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+/*from the minimal table style*/
+address 
+{
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted; 
+}
+  
+table 
+{
+  border-collapse: collapse;
+  border: 2px solid #c8c8c8;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th 
+{
+	border: 1px solid #bebebe;
+	padding: 10px 20px;
+}
+
+th 
+{
+	background-color: #ebebeb;
+}
+
+td 
+{
+	text-align: center;
+}
+
+tr:nth-child(even) td 
+{
+	background-color: #fafafa;
+}
+
+tr:nth-child(odd) td 
+{
+	background-color: #f5f5f5;
+}
